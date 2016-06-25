@@ -8,6 +8,11 @@
 
 import UIKit
 
+/**
+ This ContentViewController is a reusable ViewController in which the titleLabel is changed
+ depending on the page.
+ */
+
 class ContentViewController: UIViewController {
 
     @IBOutlet weak var titleLabel: UILabel!
