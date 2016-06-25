@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9FDFC52C1D1F329400442AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFC52B1D1F329400442AEB /* AppDelegate.swift */; };
-		9FDFC52E1D1F329400442AEB /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFC52D1D1F329400442AEB /* ExampleViewController.swift */; };
+		9FDFC52E1D1F329400442AEB /* SubclassExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFC52D1D1F329400442AEB /* SubclassExampleViewController.swift */; };
 		9FDFC5311D1F329400442AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFC52F1D1F329400442AEB /* Main.storyboard */; };
 		9FDFC5331D1F329400442AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFC5321D1F329400442AEB /* Assets.xcassets */; };
 		9FDFC5361D1F329400442AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFC5341D1F329400442AEB /* LaunchScreen.storyboard */; };
@@ -16,6 +16,7 @@
 		9FDFC54C1D1F329400442AEB /* SimplePageViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFC54B1D1F329400442AEB /* SimplePageViewControllerUITests.swift */; };
 		9FDFC55A1D1F32B900442AEB /* SimplePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFC5591D1F32B900442AEB /* SimplePageViewController.swift */; };
 		9FDFC55C1D1F396D00442AEB /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFC55B1D1F396D00442AEB /* ContentViewController.swift */; };
+		9FDFC55E1D1F40AA00442AEB /* CodeExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFC55D1D1F40AA00442AEB /* CodeExampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 /* Begin PBXFileReference section */
 		9FDFC5281D1F329400442AEB /* SimplePageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FDFC52B1D1F329400442AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9FDFC52D1D1F329400442AEB /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		9FDFC52D1D1F329400442AEB /* SubclassExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubclassExampleViewController.swift; sourceTree = "<group>"; };
 		9FDFC5301D1F329400442AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FDFC5321D1F329400442AEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FDFC5351D1F329400442AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		9FDFC54D1D1F329400442AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FDFC5591D1F32B900442AEB /* SimplePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplePageViewController.swift; sourceTree = "<group>"; };
 		9FDFC55B1D1F396D00442AEB /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		9FDFC55D1D1F40AA00442AEB /* CodeExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeExampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +105,8 @@
 			children = (
 				9FDFC52B1D1F329400442AEB /* AppDelegate.swift */,
 				9FDFC5591D1F32B900442AEB /* SimplePageViewController.swift */,
-				9FDFC52D1D1F329400442AEB /* ExampleViewController.swift */,
+				9FDFC52D1D1F329400442AEB /* SubclassExampleViewController.swift */,
+				9FDFC55D1D1F40AA00442AEB /* CodeExampleViewController.swift */,
 				9FDFC55B1D1F396D00442AEB /* ContentViewController.swift */,
 				9FDFC52F1D1F329400442AEB /* Main.storyboard */,
 				9FDFC5321D1F329400442AEB /* Assets.xcassets */,
@@ -264,7 +267,8 @@
 			files = (
 				9FDFC55C1D1F396D00442AEB /* ContentViewController.swift in Sources */,
 				9FDFC55A1D1F32B900442AEB /* SimplePageViewController.swift in Sources */,
-				9FDFC52E1D1F329400442AEB /* ExampleViewController.swift in Sources */,
+				9FDFC52E1D1F329400442AEB /* SubclassExampleViewController.swift in Sources */,
+				9FDFC55E1D1F40AA00442AEB /* CodeExampleViewController.swift in Sources */,
 				9FDFC52C1D1F329400442AEB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

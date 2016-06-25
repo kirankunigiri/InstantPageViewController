@@ -32,9 +32,10 @@ class SimplePageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // Setup page control appearance
+        // Setup page control (dots) appearance
         UIPageControl.appearance().pageIndicatorTintColor = UIColor.lightGrayColor()
         UIPageControl.appearance().currentPageIndicatorTintColor = UIColor.blackColor()
+        UIPageControl.appearance().backgroundColor = self.view.backgroundColor
         
         // Set the vc list to the dataSource list
         self.viewControllerList = self.dataSource?.getViewControllerList()
