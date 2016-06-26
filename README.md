@@ -1,4 +1,7 @@
-# SimplePageViewController
+# SimplePageViewController ![Platform](https://img.shields.io/badge/platform-ios-orange.svg)
+![License MIT](https://img.shields.io/badge/license-Unlicense-blue.svg)
+![License MIT](https://img.shields.io/badge/build-passing-brightgreen.svg)
+
 **How a Page View Controller should be. Simple.**
 
 **Note:** This page also contains a **detailed tutorial** on how to use this class and UIPageViewControllers. If you already know the basics, you can skip to the end, but it is highly suggested to read everything.
@@ -65,3 +68,5 @@ pageVC.view.backgroundColor = UIColor.whiteColor()
 // Present it
 self.presentViewController(pageVC, animated: true) {}
 ```
+## License
+Unlicense. Do whatever you want. No credit required.  
