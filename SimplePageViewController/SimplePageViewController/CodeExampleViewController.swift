@@ -19,6 +19,7 @@ class CodeExampleViewController: UIViewController, SimplePageViewControllerDataS
         super.viewDidLoad()
     }
     
+    // Put it in viewDidAppear instead because presenting view controllers does not work in viewDidLoad
     override func viewDidAppear(animated: Bool) {
         
         // Create the SimplePageViewController
