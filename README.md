@@ -1,4 +1,4 @@
-# SimplePageViewController ![Platform](https://img.shields.io/badge/platform-ios-orange.svg)
+# InstantPageViewController ![Platform](https://img.shields.io/badge/platform-ios-orange.svg)
 ![License MIT](https://img.shields.io/badge/license-Unlicense-blue.svg)
 ![License MIT](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
@@ -8,18 +8,18 @@ An extremely easy and quick way to create a Page View Controller. Also has the a
 **Note:** This page also contains a **detailed tutorial** on how to use this class and UIPageViewControllers. If you already know the basics, you can skip to the end, but it is highly suggested to read everything.
 
 ## Installation
-Just download the source and add the SimplePageViewController.swift file to your project.
+Just download the source and add the InstantPageViewController.swift file to your project.
 
 ## What is this?
-This project is fairly small. It's just one Swift file! But the SimplePageViewController class and examples can let you quickly and easily setup a Page View. It will also help you get a good understanding of how to use UIPageViewControllers yourself and customize them.
+This project is fairly small. It's just one Swift file! But the InstantPageViewController class and examples can let you quickly and easily setup a Page View. It will also help you get a good understanding of how to use UIPageViewControllers yourself and customize them.
 
 Apple's UIPageViewController makes you type up a lot of code that's unecessary for the standard Page View. This class simplifies it for you, and makes it extremely simple to setup a Page View in just minutes.
 
 ## Guide
 
-Simple Page View Controller works by using a regular UIViewController, but adding a UIPageViewController on as a child. We'll refer to the UIViewController view as the **base view** (because it's at the bottom) and the overlying UIPageViewController view as the **page view**. By using this model, you can make certain items be static and stay on the screen (without moving along with it's respective page) by adding them to the base view. This is useful if you want to have, for example, an iPhone screen that stays in the middle, while the content moves from page to page.
+Instant Page View Controller works by using a regular UIViewController, but adding a UIPageViewController on as a child. We'll refer to the UIViewController view as the **base view** (because it's at the bottom) and the overlying UIPageViewController view as the **page view**. By using this model, you can make certain items be static and stay on the screen (without moving along with it's respective page) by adding them to the base view. This is useful if you want to have, for example, an iPhone screen that stays in the middle, while the content moves from page to page.
 
-There are 2 ways to use Simple Page View Controller. The first is to subclass it, allowing you to edit the base view via Storyboard. The second is to programmatically create it.
+There are 2 ways to use Instant Page View Controller. The first is to subclass it, allowing you to edit the base view via Storyboard. The second is to programmatically create it.
 
 ### Subclass or Programmatically create it?
 
@@ -27,12 +27,12 @@ When you subclass it, you can set this class to a ViewController on Storyboard. 
 
 ### So how do I use it?
 
-Let's get started using the subclass way. First, create a ViewController in storyboard. Then, create a new ViewController class, and make it a subclass of SimplePageViewController, and add in the SimplePageViewControllerDataSource.
+Let's get started using the subclass way. First, create a ViewController in storyboard. Then, create a new ViewController class, and make it a subclass of InstantPageViewController, and add in the InstantPageViewControllerDataSource.
 
 It may seem weird, but we have to set the dataSource to self before calling ```super.viewDidLoad()```. Because this is a subclass, the ```super.viewDidLoad()``` needs the dataSource to run, and you need to set it beforehand.
 
 ```
-class SubclassExampleViewController: SimplePageViewController, SimplePageViewControllerDataSource {
+class SubclassExampleViewController: InstantePageViewController, InstantPageViewControllerDataSource {
 
   override func viewDidLoad() {
     self.dataSource = self
@@ -63,8 +63,8 @@ You can also add the ability to make it scroll infinitely! Just set the `scrolls
 There's only one difference here. Instead of subclassing it, you just create one programmatically and present it. This snippet of code will automatically present a Page View (but be sure to conform to the data source as we did before). Also, because it's not a subclass, you do not have to set the ```dataSource``` before ```super.viewDidLoad()```.
 
 ```
-// Create the SimplePageViewController
-let pageVC = SimplePageViewController()
+// Create the InstantPageViewController
+let pageVC = InstantPageViewController()
 pageVC.dataSource = self
 pageVC.view.backgroundColor = UIColor.whiteColor()
 
