@@ -14,7 +14,7 @@
 		9FDFC5361D1F329400442AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDFC5341D1F329400442AEB /* LaunchScreen.storyboard */; };
 		9FDFC5411D1F329400442AEB /* SimplePageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFC5401D1F329400442AEB /* SimplePageViewControllerTests.swift */; };
 		9FDFC54C1D1F329400442AEB /* SimplePageViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFC54B1D1F329400442AEB /* SimplePageViewControllerUITests.swift */; };
-		9FDFC55A1D1F32B900442AEB /* SimplePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFC5591D1F32B900442AEB /* SimplePageViewController.swift */; };
+		9FDFC55A1D1F32B900442AEB /* InstantPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFC5591D1F32B900442AEB /* InstantPageViewController.swift */; };
 		9FDFC55C1D1F396D00442AEB /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFC55B1D1F396D00442AEB /* ContentViewController.swift */; };
 		9FDFC55E1D1F40AA00442AEB /* CodeExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDFC55D1D1F40AA00442AEB /* CodeExampleViewController.swift */; };
 /* End PBXBuildFile section */
@@ -37,20 +37,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9FDFC5281D1F329400442AEB /* SimplePageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDFC5281D1F329400442AEB /* InstantPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstantPageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FDFC52B1D1F329400442AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FDFC52D1D1F329400442AEB /* SubclassExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubclassExampleViewController.swift; sourceTree = "<group>"; };
 		9FDFC5301D1F329400442AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FDFC5321D1F329400442AEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FDFC5351D1F329400442AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FDFC5371D1F329400442AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FDFC53C1D1F329400442AEB /* SimplePageViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePageViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDFC53C1D1F329400442AEB /* InstantPageViewController.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantPageViewController.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FDFC5401D1F329400442AEB /* SimplePageViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePageViewControllerTests.swift; sourceTree = "<group>"; };
 		9FDFC5421D1F329400442AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FDFC5471D1F329400442AEB /* SimplePageViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePageViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FDFC5471D1F329400442AEB /* InstantPageViewController.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantPageViewController.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FDFC54B1D1F329400442AEB /* SimplePageViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplePageViewControllerUITests.swift; sourceTree = "<group>"; };
 		9FDFC54D1D1F329400442AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FDFC5591D1F32B900442AEB /* SimplePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplePageViewController.swift; sourceTree = "<group>"; };
+		9FDFC5591D1F32B900442AEB /* InstantPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstantPageViewController.swift; sourceTree = "<group>"; };
 		9FDFC55B1D1F396D00442AEB /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		9FDFC55D1D1F40AA00442AEB /* CodeExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeExampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,9 +83,9 @@
 		9FDFC51F1D1F329400442AEB = {
 			isa = PBXGroup;
 			children = (
-				9FDFC52A1D1F329400442AEB /* SimplePageViewController */,
-				9FDFC53F1D1F329400442AEB /* SimplePageViewControllerTests */,
-				9FDFC54A1D1F329400442AEB /* SimplePageViewControllerUITests */,
+				9FDFC52A1D1F329400442AEB /* InstantPageViewController */,
+				9FDFC53F1D1F329400442AEB /* InstantPageViewControllerTests */,
+				9FDFC54A1D1F329400442AEB /* InstantPageViewControllerUITests */,
 				9FDFC5291D1F329400442AEB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,18 +93,18 @@
 		9FDFC5291D1F329400442AEB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9FDFC5281D1F329400442AEB /* SimplePageViewController.app */,
-				9FDFC53C1D1F329400442AEB /* SimplePageViewControllerTests.xctest */,
-				9FDFC5471D1F329400442AEB /* SimplePageViewControllerUITests.xctest */,
+				9FDFC5281D1F329400442AEB /* InstantPageViewController.app */,
+				9FDFC53C1D1F329400442AEB /* InstantPageViewController.xctest */,
+				9FDFC5471D1F329400442AEB /* InstantPageViewController.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9FDFC52A1D1F329400442AEB /* SimplePageViewController */ = {
+		9FDFC52A1D1F329400442AEB /* InstantPageViewController */ = {
 			isa = PBXGroup;
 			children = (
 				9FDFC52B1D1F329400442AEB /* AppDelegate.swift */,
-				9FDFC5591D1F32B900442AEB /* SimplePageViewController.swift */,
+				9FDFC5591D1F32B900442AEB /* InstantPageViewController.swift */,
 				9FDFC52D1D1F329400442AEB /* SubclassExampleViewController.swift */,
 				9FDFC55D1D1F40AA00442AEB /* CodeExampleViewController.swift */,
 				9FDFC55B1D1F396D00442AEB /* ContentViewController.swift */,
@@ -113,33 +113,36 @@
 				9FDFC5341D1F329400442AEB /* LaunchScreen.storyboard */,
 				9FDFC5371D1F329400442AEB /* Info.plist */,
 			);
+			name = InstantPageViewController;
 			path = SimplePageViewController;
 			sourceTree = "<group>";
 		};
-		9FDFC53F1D1F329400442AEB /* SimplePageViewControllerTests */ = {
+		9FDFC53F1D1F329400442AEB /* InstantPageViewControllerTests */ = {
 			isa = PBXGroup;
 			children = (
 				9FDFC5401D1F329400442AEB /* SimplePageViewControllerTests.swift */,
 				9FDFC5421D1F329400442AEB /* Info.plist */,
 			);
+			name = InstantPageViewControllerTests;
 			path = SimplePageViewControllerTests;
 			sourceTree = "<group>";
 		};
-		9FDFC54A1D1F329400442AEB /* SimplePageViewControllerUITests */ = {
+		9FDFC54A1D1F329400442AEB /* InstantPageViewControllerUITests */ = {
 			isa = PBXGroup;
 			children = (
 				9FDFC54B1D1F329400442AEB /* SimplePageViewControllerUITests.swift */,
 				9FDFC54D1D1F329400442AEB /* Info.plist */,
 			);
+			name = InstantPageViewControllerUITests;
 			path = SimplePageViewControllerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9FDFC5271D1F329400442AEB /* SimplePageViewController */ = {
+		9FDFC5271D1F329400442AEB /* InstantPageViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FDFC5501D1F329400442AEB /* Build configuration list for PBXNativeTarget "SimplePageViewController" */;
+			buildConfigurationList = 9FDFC5501D1F329400442AEB /* Build configuration list for PBXNativeTarget "InstantPageViewController" */;
 			buildPhases = (
 				9FDFC5241D1F329400442AEB /* Sources */,
 				9FDFC5251D1F329400442AEB /* Frameworks */,
@@ -149,14 +152,14 @@
 			);
 			dependencies = (
 			);
-			name = SimplePageViewController;
+			name = InstantPageViewController;
 			productName = SimplePageViewController;
-			productReference = 9FDFC5281D1F329400442AEB /* SimplePageViewController.app */;
+			productReference = 9FDFC5281D1F329400442AEB /* InstantPageViewController.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9FDFC53B1D1F329400442AEB /* SimplePageViewControllerTests */ = {
+		9FDFC53B1D1F329400442AEB /* InstantPageViewControllerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FDFC5531D1F329400442AEB /* Build configuration list for PBXNativeTarget "SimplePageViewControllerTests" */;
+			buildConfigurationList = 9FDFC5531D1F329400442AEB /* Build configuration list for PBXNativeTarget "InstantPageViewControllerTests" */;
 			buildPhases = (
 				9FDFC5381D1F329400442AEB /* Sources */,
 				9FDFC5391D1F329400442AEB /* Frameworks */,
@@ -167,14 +170,14 @@
 			dependencies = (
 				9FDFC53E1D1F329400442AEB /* PBXTargetDependency */,
 			);
-			name = SimplePageViewControllerTests;
+			name = InstantPageViewControllerTests;
 			productName = SimplePageViewControllerTests;
-			productReference = 9FDFC53C1D1F329400442AEB /* SimplePageViewControllerTests.xctest */;
+			productReference = 9FDFC53C1D1F329400442AEB /* InstantPageViewController.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9FDFC5461D1F329400442AEB /* SimplePageViewControllerUITests */ = {
+		9FDFC5461D1F329400442AEB /* InstantPageViewControllerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9FDFC5561D1F329400442AEB /* Build configuration list for PBXNativeTarget "SimplePageViewControllerUITests" */;
+			buildConfigurationList = 9FDFC5561D1F329400442AEB /* Build configuration list for PBXNativeTarget "InstantPageViewControllerUITests" */;
 			buildPhases = (
 				9FDFC5431D1F329400442AEB /* Sources */,
 				9FDFC5441D1F329400442AEB /* Frameworks */,
@@ -185,9 +188,9 @@
 			dependencies = (
 				9FDFC5491D1F329400442AEB /* PBXTargetDependency */,
 			);
-			name = SimplePageViewControllerUITests;
+			name = InstantPageViewControllerUITests;
 			productName = SimplePageViewControllerUITests;
-			productReference = 9FDFC5471D1F329400442AEB /* SimplePageViewControllerUITests.xctest */;
+			productReference = 9FDFC5471D1F329400442AEB /* InstantPageViewController.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -213,7 +216,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9FDFC5231D1F329400442AEB /* Build configuration list for PBXProject "SimplePageViewController" */;
+			buildConfigurationList = 9FDFC5231D1F329400442AEB /* Build configuration list for PBXProject "InstantPageViewController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -226,9 +229,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9FDFC5271D1F329400442AEB /* SimplePageViewController */,
-				9FDFC53B1D1F329400442AEB /* SimplePageViewControllerTests */,
-				9FDFC5461D1F329400442AEB /* SimplePageViewControllerUITests */,
+				9FDFC5271D1F329400442AEB /* InstantPageViewController */,
+				9FDFC53B1D1F329400442AEB /* InstantPageViewControllerTests */,
+				9FDFC5461D1F329400442AEB /* InstantPageViewControllerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FDFC55C1D1F396D00442AEB /* ContentViewController.swift in Sources */,
-				9FDFC55A1D1F32B900442AEB /* SimplePageViewController.swift in Sources */,
+				9FDFC55A1D1F32B900442AEB /* InstantPageViewController.swift in Sources */,
 				9FDFC52E1D1F329400442AEB /* SubclassExampleViewController.swift in Sources */,
 				9FDFC55E1D1F40AA00442AEB /* CodeExampleViewController.swift in Sources */,
 				9FDFC52C1D1F329400442AEB /* AppDelegate.swift in Sources */,
@@ -294,12 +297,12 @@
 /* Begin PBXTargetDependency section */
 		9FDFC53E1D1F329400442AEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9FDFC5271D1F329400442AEB /* SimplePageViewController */;
+			target = 9FDFC5271D1F329400442AEB /* InstantPageViewController */;
 			targetProxy = 9FDFC53D1D1F329400442AEB /* PBXContainerItemProxy */;
 		};
 		9FDFC5491D1F329400442AEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9FDFC5271D1F329400442AEB /* SimplePageViewController */;
+			target = 9FDFC5271D1F329400442AEB /* InstantPageViewController */;
 			targetProxy = 9FDFC5481D1F329400442AEB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -416,7 +419,7 @@
 				INFOPLIST_FILE = SimplePageViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.SimplePageViewController;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = InstantPageViewController;
 			};
 			name = Debug;
 		};
@@ -427,7 +430,7 @@
 				INFOPLIST_FILE = SimplePageViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.SimplePageViewController;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = InstantPageViewController;
 			};
 			name = Release;
 		};
@@ -438,8 +441,8 @@
 				INFOPLIST_FILE = SimplePageViewControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.SimplePageViewControllerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplePageViewController.app/SimplePageViewController";
+				PRODUCT_NAME = InstantPageViewController;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstantPageViewController.app/InstantPageViewController";
 			};
 			name = Debug;
 		};
@@ -450,8 +453,8 @@
 				INFOPLIST_FILE = SimplePageViewControllerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.SimplePageViewControllerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplePageViewController.app/SimplePageViewController";
+				PRODUCT_NAME = InstantPageViewController;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstantPageViewController.app/InstantPageViewController";
 			};
 			name = Release;
 		};
@@ -461,7 +464,7 @@
 				INFOPLIST_FILE = SimplePageViewControllerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.SimplePageViewControllerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = InstantPageViewController;
 				TEST_TARGET_NAME = SimplePageViewController;
 			};
 			name = Debug;
@@ -472,7 +475,7 @@
 				INFOPLIST_FILE = SimplePageViewControllerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.SimplePageViewControllerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = InstantPageViewController;
 				TEST_TARGET_NAME = SimplePageViewController;
 			};
 			name = Release;
@@ -480,7 +483,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9FDFC5231D1F329400442AEB /* Build configuration list for PBXProject "SimplePageViewController" */ = {
+		9FDFC5231D1F329400442AEB /* Build configuration list for PBXProject "InstantPageViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FDFC54E1D1F329400442AEB /* Debug */,
@@ -489,29 +492,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FDFC5501D1F329400442AEB /* Build configuration list for PBXNativeTarget "SimplePageViewController" */ = {
+		9FDFC5501D1F329400442AEB /* Build configuration list for PBXNativeTarget "InstantPageViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FDFC5511D1F329400442AEB /* Debug */,
 				9FDFC5521D1F329400442AEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9FDFC5531D1F329400442AEB /* Build configuration list for PBXNativeTarget "SimplePageViewControllerTests" */ = {
+		9FDFC5531D1F329400442AEB /* Build configuration list for PBXNativeTarget "InstantPageViewControllerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FDFC5541D1F329400442AEB /* Debug */,
 				9FDFC5551D1F329400442AEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9FDFC5561D1F329400442AEB /* Build configuration list for PBXNativeTarget "SimplePageViewControllerUITests" */ = {
+		9FDFC5561D1F329400442AEB /* Build configuration list for PBXNativeTarget "InstantPageViewControllerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FDFC5571D1F329400442AEB /* Debug */,
 				9FDFC5581D1F329400442AEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

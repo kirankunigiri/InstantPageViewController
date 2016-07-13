@@ -13,7 +13,7 @@ import UIKit
  In this example, we create the SimplePageViewController through code. We do not have 
  to subclass it or make a new ViewController in Storyboard for it.
  */
-class CodeExampleViewController: UIViewController, SimplePageViewControllerDataSource {
+class CodeExampleViewController: UIViewController, InstantPageViewControllerDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +23,7 @@ class CodeExampleViewController: UIViewController, SimplePageViewControllerDataS
     override func viewDidAppear(animated: Bool) {
         
         // Create the SimplePageViewController
-        let pageVC = SimplePageViewController()
+        let pageVC = InstantPageViewController()
         pageVC.dataSource = self
         pageVC.view.backgroundColor = UIColor.whiteColor()
         

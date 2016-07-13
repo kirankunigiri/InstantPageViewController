@@ -26,7 +26,7 @@ import UIKit
  storyboard.instantiateViewControllerWithIdentifier("_IDENTIFIER_NAME_)")
  */
 
-class SubclassExampleViewController: SimplePageViewController, SimplePageViewControllerDataSource {
+class SubclassExampleViewController: InstantPageViewController, InstantPageViewControllerDataSource {
 
     override func viewDidLoad() {
         

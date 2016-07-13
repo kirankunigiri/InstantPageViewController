@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9FDFC5271D1F329400442AEB"
-               BuildableName = "SimplePageViewController.app"
-               BlueprintName = "SimplePageViewController"
-               ReferencedContainer = "container:SimplePageViewController.xcodeproj">
+               BuildableName = "InstantPageViewController.app"
+               BlueprintName = "InstantPageViewController"
+               ReferencedContainer = "container:InstantPageViewController.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9FDFC53B1D1F329400442AEB"
-               BuildableName = "SimplePageViewControllerTests.xctest"
-               BlueprintName = "SimplePageViewControllerTests"
-               ReferencedContainer = "container:SimplePageViewController.xcodeproj">
+               BuildableName = "InstantPageViewController.xctest"
+               BlueprintName = "InstantPageViewControllerTests"
+               ReferencedContainer = "container:InstantPageViewController.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9FDFC5461D1F329400442AEB"
-               BuildableName = "SimplePageViewControllerUITests.xctest"
-               BlueprintName = "SimplePageViewControllerUITests"
-               ReferencedContainer = "container:SimplePageViewController.xcodeproj">
+               BuildableName = "InstantPageViewController.xctest"
+               BlueprintName = "InstantPageViewControllerUITests"
+               ReferencedContainer = "container:InstantPageViewController.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9FDFC5271D1F329400442AEB"
-            BuildableName = "SimplePageViewController.app"
-            BlueprintName = "SimplePageViewController"
-            ReferencedContainer = "container:SimplePageViewController.xcodeproj">
+            BuildableName = "InstantPageViewController.app"
+            BlueprintName = "InstantPageViewController"
+            ReferencedContainer = "container:InstantPageViewController.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9FDFC5271D1F329400442AEB"
-            BuildableName = "SimplePageViewController.app"
-            BlueprintName = "SimplePageViewController"
-            ReferencedContainer = "container:SimplePageViewController.xcodeproj">
+            BuildableName = "InstantPageViewController.app"
+            BlueprintName = "InstantPageViewController"
+            ReferencedContainer = "container:InstantPageViewController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9FDFC5271D1F329400442AEB"
-            BuildableName = "SimplePageViewController.app"
-            BlueprintName = "SimplePageViewController"
-            ReferencedContainer = "container:SimplePageViewController.xcodeproj">
+            BuildableName = "InstantPageViewController.app"
+            BlueprintName = "InstantPageViewController"
+            ReferencedContainer = "container:InstantPageViewController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

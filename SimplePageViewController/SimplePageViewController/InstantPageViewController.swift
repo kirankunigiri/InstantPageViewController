@@ -10,16 +10,16 @@ import UIKit
 /**
  *  Must conform to the function `getViewControllerList()`
  */
-@objc protocol SimplePageViewControllerDataSource {
+@objc protocol InstantPageViewControllerDataSource {
     /** Returns the list of view controllers to be displayed in the UIPageViewController */
     func getViewControllerList() -> [UIViewController]
 }
 
-class SimplePageViewController: UIViewController {
+class InstantPageViewController: UIViewController {
     
     // Data source elements
     /** Conform to this dataSource to provide the class the objects it needs */
-    var dataSource: SimplePageViewControllerDataSource?
+    var dataSource: InstantPageViewControllerDataSource?
     /** The list of view controllers to be displayed in the UIPageViewController */
     var viewControllerList: [UIViewController]!
     /** Whether or not the pages should scroll inifinitely */
@@ -57,7 +57,7 @@ class SimplePageViewController: UIViewController {
     
 }
 
-extension SimplePageViewController: UIPageViewControllerDataSource {
+extension InstantPageViewController: UIPageViewControllerDataSource {
     
     func pageViewController(pageViewController: UIPageViewController, viewControllerBeforeViewController viewController: UIViewController) -> UIViewController? {
         
