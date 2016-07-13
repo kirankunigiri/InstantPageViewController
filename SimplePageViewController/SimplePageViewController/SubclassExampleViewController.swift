@@ -32,7 +32,7 @@ class SubclassExampleViewController: SimplePageViewController, SimplePageViewCon
         
         // Set the dataSource before the viewDidLoad, because the super.viewDidLoad() uses the dataSource methods
         self.dataSource = self
-        
+        self.scrollsInfinitely = true
         super.viewDidLoad()
     }
     

@@ -3,8 +3,6 @@
 //  SimplePageViewController
 //
 //  Created by Kiran Kunigiri on 6/25/16.
-//  Credit to the clean and organized DataSource guards goes to
-//  https://spin.atomicobject.com/2015/12/23/swift-uipageviewcontroller-tutorial/
 //
 
 import UIKit
@@ -24,6 +22,8 @@ class SimplePageViewController: UIViewController {
     var dataSource: SimplePageViewControllerDataSource?
     /** The list of view controllers to be displayed in the UIPageViewController */
     var viewControllerList: [UIViewController]!
+    /** Whether or not the pages should scroll inifinitely */
+    var scrollsInfinitely: Bool = false
     
     // Other elements
     /** The UIPageViewController used to display pages. Edit it's properties to customize your View Controller */
@@ -66,13 +66,8 @@ extension SimplePageViewController: UIPageViewControllerDataSource {
         }
         
         let previousIndex = viewControllerIndex - 1
-        
-        guard previousIndex >= 0 else {
-            return nil
-        }
-        
-        guard self.viewControllerList.count > previousIndex else {
-            return nil
+        guard viewControllerIndex - 1 >= 0 else {
+            return scrollsInfinitely ? viewControllerList[viewControllerList.count - 1] : nil
         }
         
         return self.viewControllerList[previousIndex]
@@ -85,14 +80,8 @@ extension SimplePageViewController: UIPageViewControllerDataSource {
         }
         
         let nextIndex = viewControllerIndex + 1
-        let orderedViewControllersCount = self.viewControllerList!.count
-        
-        guard orderedViewControllersCount != nextIndex else {
-            return nil
-        }
-        
-        guard orderedViewControllersCount > nextIndex else {
-            return nil
+        guard viewControllerList.count > nextIndex else {
+            return scrollsInfinitely ? viewControllerList[0] : nil
         }
         
         return self.viewControllerList![nextIndex]
