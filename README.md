@@ -3,6 +3,7 @@
 ![License MIT](https://img.shields.io/badge/build-passing-brightgreen.svg)
 
 **How a Page View Controller should be. Simple.**
+An extremely easy and quick way to create a Page View Controller. Also has the ability to scroll infinitely with one line of code!
 
 **Note:** This page also contains a **detailed tutorial** on how to use this class and UIPageViewControllers. If you already know the basics, you can skip to the end, but it is highly suggested to read everything.
 
@@ -54,6 +55,8 @@ func getViewControllerList() -> [UIViewController] {
   return viewControllerList
 }
 ```
+
+You can also add the ability to make it scroll infinitely! Just set the `scrollsInfinitely` property to true.
 
 ### Programmatically create it
 
