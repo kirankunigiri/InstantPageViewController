@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  SimplePageViewController
+//  InstantPageViewController
 //
 //  Created by Kiran Kunigiri on 6/25/16.
 //  Copyright © 2016 Kiran. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 
 /**
- In this example, we create a subclass of the SimplePageViewController. This way, we can keep a view
+ In this example, we create a subclass of the InstantPageViewController. This way, we can keep a view
  that persists throughout different pages (It sticks and doesn't move). This is because we use a 
  base ViewController where the items are static.
  

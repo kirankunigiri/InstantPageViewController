@@ -1,6 +1,6 @@
 //
 //  ContentViewController.swift
-//  SimplePageViewController
+//  InstantPageViewController
 //
 //  Created by Kiran Kunigiri on 6/25/16.
 //  Copyright © 2016 Kiran. All rights reserved.

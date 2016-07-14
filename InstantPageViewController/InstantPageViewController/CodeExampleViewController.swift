@@ -1,6 +1,6 @@
 //
 //  CodeExampleViewController.swift
-//  SimplePageViewController
+//  InstantPageViewController
 //
 //  Created by Kiran Kunigiri on 6/25/16.
 //  Copyright © 2016 Kiran. All rights reserved.
@@ -10,7 +10,7 @@ import UIKit
 
 
 /**
- In this example, we create the SimplePageViewController through code. We do not have 
+ In this example, we create the InstantPageViewController through code. We do not have
  to subclass it or make a new ViewController in Storyboard for it.
  */
 class CodeExampleViewController: UIViewController, InstantPageViewControllerDataSource {
@@ -22,7 +22,7 @@ class CodeExampleViewController: UIViewController, InstantPageViewControllerData
     // Put it in viewDidAppear instead because presenting view controllers does not work in viewDidLoad
     override func viewDidAppear(animated: Bool) {
         
-        // Create the SimplePageViewController
+        // Create the InstantPageViewController
         let pageVC = InstantPageViewController()
         pageVC.dataSource = self
         pageVC.view.backgroundColor = UIColor.whiteColor()

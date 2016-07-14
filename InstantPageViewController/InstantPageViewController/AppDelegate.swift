@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  SimplePageViewController
+//  InstantPageViewController
 //
-//  Created by Kiran Kunigiri on 6/25/16.
+//  Created by Kiran Kunigiri on 7/13/16.
 //  Copyright © 2016 Kiran. All rights reserved.
 //
 

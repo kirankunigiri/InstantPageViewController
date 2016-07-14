@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9FDFC5271D1F329400442AEB"
+               BlueprintIdentifier = "9FD7DDCA1D370D1900156F22"
                BuildableName = "InstantPageViewController.app"
                BlueprintName = "InstantPageViewController"
                ReferencedContainer = "container:InstantPageViewController.xcodeproj">
@@ -32,8 +32,8 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9FDFC53B1D1F329400442AEB"
-               BuildableName = "InstantPageViewController.xctest"
+               BlueprintIdentifier = "9FD7DDDE1D370D1900156F22"
+               BuildableName = "InstantPageViewControllerTests.xctest"
                BlueprintName = "InstantPageViewControllerTests"
                ReferencedContainer = "container:InstantPageViewController.xcodeproj">
             </BuildableReference>
@@ -42,8 +42,8 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9FDFC5461D1F329400442AEB"
-               BuildableName = "InstantPageViewController.xctest"
+               BlueprintIdentifier = "9FD7DDE91D370D1900156F22"
+               BuildableName = "InstantPageViewControllerUITests.xctest"
                BlueprintName = "InstantPageViewControllerUITests"
                ReferencedContainer = "container:InstantPageViewController.xcodeproj">
             </BuildableReference>
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9FDFC5271D1F329400442AEB"
+            BlueprintIdentifier = "9FD7DDCA1D370D1900156F22"
             BuildableName = "InstantPageViewController.app"
             BlueprintName = "InstantPageViewController"
             ReferencedContainer = "container:InstantPageViewController.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9FDFC5271D1F329400442AEB"
+            BlueprintIdentifier = "9FD7DDCA1D370D1900156F22"
             BuildableName = "InstantPageViewController.app"
             BlueprintName = "InstantPageViewController"
             ReferencedContainer = "container:InstantPageViewController.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9FDFC5271D1F329400442AEB"
+            BlueprintIdentifier = "9FD7DDCA1D370D1900156F22"
             BuildableName = "InstantPageViewController.app"
             BlueprintName = "InstantPageViewController"
             ReferencedContainer = "container:InstantPageViewController.xcodeproj">

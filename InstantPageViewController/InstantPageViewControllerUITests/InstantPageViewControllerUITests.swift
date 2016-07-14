@@ -1,14 +1,14 @@
 //
-//  SimplePageViewControllerUITests.swift
-//  SimplePageViewControllerUITests
+//  InstantPageViewControllerUITests.swift
+//  InstantPageViewControllerUITests
 //
-//  Created by Kiran Kunigiri on 6/25/16.
+//  Created by Kiran Kunigiri on 7/13/16.
 //  Copyright © 2016 Kiran. All rights reserved.
 //
 
 import XCTest
 
-class SimplePageViewControllerUITests: XCTestCase {
+class InstantPageViewControllerUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

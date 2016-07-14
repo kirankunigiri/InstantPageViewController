@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SimplePageViewController.xcscheme</key>
+		<key>InstantPageViewController.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>9FDFC5271D1F329400442AEB</key>
+		<key>9FD7DDCA1D370D1900156F22</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9FDFC53B1D1F329400442AEB</key>
+		<key>9FD7DDDE1D370D1900156F22</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9FDFC5461D1F329400442AEB</key>
+		<key>9FD7DDE91D370D1900156F22</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,6 +1,6 @@
 //
-//  SimplePageViewController.swft
-//  SimplePageViewController
+//  InstantPageViewController
+//  InstantPageViewController
 //
 //  Created by Kiran Kunigiri on 6/25/16.
 //
