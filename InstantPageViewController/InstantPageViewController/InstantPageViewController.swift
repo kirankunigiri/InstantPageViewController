@@ -33,35 +33,35 @@ class InstantPageViewController: UIViewController {
         super.viewDidLoad()
         
         // Setup page control (dots) appearance
-        UIPageControl.appearance().pageIndicatorTintColor = UIColor.lightGrayColor()
-        UIPageControl.appearance().currentPageIndicatorTintColor = UIColor.blackColor()
+        UIPageControl.appearance().pageIndicatorTintColor = UIColor.lightGray
+        UIPageControl.appearance().currentPageIndicatorTintColor = UIColor.black
         UIPageControl.appearance().backgroundColor = self.view.backgroundColor
         
         // Set the vc list to the dataSource list
         self.viewControllerList = self.dataSource?.getViewControllerList()
         
         // Create a new Page View Controller
-        self.pageViewController = UIPageViewController(transitionStyle: .Scroll, navigationOrientation: .Horizontal, options: nil)
+        self.pageViewController = UIPageViewController(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
         self.pageViewController.dataSource = self
         
         // Set the first view to the Page View Controller
-        self.pageViewController.setViewControllers([self.viewControllerList[0]], direction: .Forward, animated: true, completion: nil)
+        self.pageViewController.setViewControllers([self.viewControllerList[0]], direction: .forward, animated: true, completion: nil)
         
         // Add and setup the Page View Controller view to the main view
-        self.pageViewController.view.frame = CGRectMake(0, 0, self.view.frame.width, self.view.frame.height)
+        self.pageViewController.view.frame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
         self.addChildViewController(self.pageViewController)
         self.view.addSubview(self.pageViewController.view)
-        self.view.sendSubviewToBack(self.pageViewController.view)
-        self.pageViewController.didMoveToParentViewController(self)
+        self.view.sendSubview(toBack: self.pageViewController.view)
+        self.pageViewController.didMove(toParentViewController: self)
     }
     
 }
 
 extension InstantPageViewController: UIPageViewControllerDataSource {
     
-    func pageViewController(pageViewController: UIPageViewController, viewControllerBeforeViewController viewController: UIViewController) -> UIViewController? {
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         
-        guard let viewControllerIndex = self.viewControllerList!.indexOf(viewController) else {
+        guard let viewControllerIndex = self.viewControllerList!.index(of: viewController) else {
             return nil
         }
         
@@ -73,9 +73,9 @@ extension InstantPageViewController: UIPageViewControllerDataSource {
         return self.viewControllerList[previousIndex]
     }
     
-    func pageViewController(pageViewController: UIPageViewController, viewControllerAfterViewController viewController: UIViewController) -> UIViewController? {
+    func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
         
-        guard let viewControllerIndex = self.viewControllerList!.indexOf(viewController) else {
+        guard let viewControllerIndex = self.viewControllerList!.index(of: viewController) else {
             return nil
         }
         
@@ -87,11 +87,11 @@ extension InstantPageViewController: UIPageViewControllerDataSource {
         return self.viewControllerList![nextIndex]
     }
     
-    func presentationCountForPageViewController(pageViewController: UIPageViewController) -> Int {
+    func presentationCount(for pageViewController: UIPageViewController) -> Int {
         return self.viewControllerList.count
     }
     
-    func presentationIndexForPageViewController(pageViewController: UIPageViewController) -> Int {
+    func presentationIndex(for pageViewController: UIPageViewController) -> Int {
         return 0
     }
     

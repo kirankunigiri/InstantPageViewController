@@ -33,6 +33,7 @@ class SubclassExampleViewController: InstantPageViewController, InstantPageViewC
         // Set the dataSource before the viewDidLoad, because the super.viewDidLoad() uses the dataSource methods
         self.dataSource = self
         self.scrollsInfinitely = true
+        
         super.viewDidLoad()
     }
     
@@ -45,7 +46,7 @@ class SubclassExampleViewController: InstantPageViewController, InstantPageViewC
         var vcList: [UIViewController] = []
         
         for index in 1 ... 3 {
-            let contentVC = self.storyboard?.instantiateViewControllerWithIdentifier("contentViewController") as! ContentViewController
+            let contentVC = self.storyboard?.instantiateViewController(withIdentifier: "contentViewController") as! ContentViewController
             contentVC.titleText = "Page #\(index)"
             vcList.append(contentVC)
         }

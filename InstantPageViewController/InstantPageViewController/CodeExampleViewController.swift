@@ -20,15 +20,15 @@ class CodeExampleViewController: UIViewController, InstantPageViewControllerData
     }
     
     // Put it in viewDidAppear instead because presenting view controllers does not work in viewDidLoad
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
         
         // Create the InstantPageViewController
         let pageVC = InstantPageViewController()
         pageVC.dataSource = self
-        pageVC.view.backgroundColor = UIColor.whiteColor()
+        pageVC.view.backgroundColor = UIColor.white
         
         // Present it
-        self.presentViewController(pageVC, animated: true) {}
+        self.present(pageVC, animated: true) {}
     }
 
     // DataSource (Same in both Subclass and code example)
@@ -36,7 +36,7 @@ class CodeExampleViewController: UIViewController, InstantPageViewControllerData
         var vcList: [UIViewController] = []
         
         for index in 1 ... 3 {
-            let contentVC = self.storyboard?.instantiateViewControllerWithIdentifier("contentViewController") as! ContentViewController
+            let contentVC = self.storyboard?.instantiateViewController(withIdentifier: "contentViewController") as! ContentViewController
             contentVC.titleText = "Page #\(index)"
             vcList.append(contentVC)
         }
