@@ -10,7 +10,6 @@
 		9FD7DDCF1D370D1900156F22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD7DDCE1D370D1900156F22 /* AppDelegate.swift */; };
 		9FD7DDD61D370D1900156F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FD7DDD51D370D1900156F22 /* Assets.xcassets */; };
 		9FD7DDD91D370D1900156F22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD7DDD71D370D1900156F22 /* LaunchScreen.storyboard */; };
-		9FD7DDE41D370D1900156F22 /* InstantPageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD7DDE31D370D1900156F22 /* InstantPageViewControllerTests.swift */; };
 		9FD7DDEF1D370D1900156F22 /* InstantPageViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD7DDEE1D370D1900156F22 /* InstantPageViewControllerUITests.swift */; };
 		9FD7DE051D370D9D00156F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD7DE031D370D9D00156F22 /* Main.storyboard */; };
 		9FD7DE081D370DA400156F22 /* CodeExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD7DE061D370DA400156F22 /* CodeExampleViewController.swift */; };
@@ -20,13 +19,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9FD7DDE01D370D1900156F22 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9FD7DDC31D370D1900156F22 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9FD7DDCA1D370D1900156F22;
-			remoteInfo = InstantPageViewController;
-		};
 		9FD7DDEB1D370D1900156F22 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9FD7DDC31D370D1900156F22 /* Project object */;
@@ -42,9 +34,6 @@
 		9FD7DDD51D370D1900156F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FD7DDD81D370D1900156F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FD7DDDA1D370D1900156F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9FD7DDDF1D370D1900156F22 /* InstantPageViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantPageViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FD7DDE31D370D1900156F22 /* InstantPageViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantPageViewControllerTests.swift; sourceTree = "<group>"; };
-		9FD7DDE51D370D1900156F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9FD7DDEA1D370D1900156F22 /* InstantPageViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantPageViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD7DDEE1D370D1900156F22 /* InstantPageViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantPageViewControllerUITests.swift; sourceTree = "<group>"; };
 		9FD7DDF01D370D1900156F22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,13 +52,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FD7DDDC1D370D1900156F22 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9FD7DDE71D370D1900156F22 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,11 +62,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F9EF6131F776A9D00E69924 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				9FD7DE0B1D370DA800156F22 /* SubclassExampleViewController.swift */,
+				9FD7DE061D370DA400156F22 /* CodeExampleViewController.swift */,
+				9FD7DE071D370DA400156F22 /* ContentViewController.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		9FD7DDC21D370D1900156F22 = {
 			isa = PBXGroup;
 			children = (
 				9FD7DDCD1D370D1900156F22 /* InstantPageViewController */,
-				9FD7DDE21D370D1900156F22 /* InstantPageViewControllerTests */,
 				9FD7DDED1D370D1900156F22 /* InstantPageViewControllerUITests */,
 				9FD7DDCC1D370D1900156F22 /* Products */,
 			);
@@ -94,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				9FD7DDCB1D370D1900156F22 /* InstantPageViewController.app */,
-				9FD7DDDF1D370D1900156F22 /* InstantPageViewControllerTests.xctest */,
 				9FD7DDEA1D370D1900156F22 /* InstantPageViewControllerUITests.xctest */,
 			);
 			name = Products;
@@ -104,25 +94,14 @@
 			isa = PBXGroup;
 			children = (
 				9FD7DDCE1D370D1900156F22 /* AppDelegate.swift */,
-				9FD7DE061D370DA400156F22 /* CodeExampleViewController.swift */,
-				9FD7DE071D370DA400156F22 /* ContentViewController.swift */,
 				9FD7DE0A1D370DA800156F22 /* InstantPageViewController.swift */,
-				9FD7DE0B1D370DA800156F22 /* SubclassExampleViewController.swift */,
+				9F9EF6131F776A9D00E69924 /* Demo */,
 				9FD7DDD51D370D1900156F22 /* Assets.xcassets */,
 				9FD7DE031D370D9D00156F22 /* Main.storyboard */,
 				9FD7DDD71D370D1900156F22 /* LaunchScreen.storyboard */,
 				9FD7DDDA1D370D1900156F22 /* Info.plist */,
 			);
 			path = InstantPageViewController;
-			sourceTree = "<group>";
-		};
-		9FD7DDE21D370D1900156F22 /* InstantPageViewControllerTests */ = {
-			isa = PBXGroup;
-			children = (
-				9FD7DDE31D370D1900156F22 /* InstantPageViewControllerTests.swift */,
-				9FD7DDE51D370D1900156F22 /* Info.plist */,
-			);
-			path = InstantPageViewControllerTests;
 			sourceTree = "<group>";
 		};
 		9FD7DDED1D370D1900156F22 /* InstantPageViewControllerUITests */ = {
@@ -153,24 +132,6 @@
 			productName = InstantPageViewController;
 			productReference = 9FD7DDCB1D370D1900156F22 /* InstantPageViewController.app */;
 			productType = "com.apple.product-type.application";
-		};
-		9FD7DDDE1D370D1900156F22 /* InstantPageViewControllerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9FD7DDF61D370D1900156F22 /* Build configuration list for PBXNativeTarget "InstantPageViewControllerTests" */;
-			buildPhases = (
-				9FD7DDDB1D370D1900156F22 /* Sources */,
-				9FD7DDDC1D370D1900156F22 /* Frameworks */,
-				9FD7DDDD1D370D1900156F22 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9FD7DDE11D370D1900156F22 /* PBXTargetDependency */,
-			);
-			name = InstantPageViewControllerTests;
-			productName = InstantPageViewControllerTests;
-			productReference = 9FD7DDDF1D370D1900156F22 /* InstantPageViewControllerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		9FD7DDE91D370D1900156F22 /* InstantPageViewControllerUITests */ = {
 			isa = PBXNativeTarget;
@@ -205,11 +166,6 @@
 						DevelopmentTeam = Y9Y96CV7VP;
 						LastSwiftMigration = 0900;
 					};
-					9FD7DDDE1D370D1900156F22 = {
-						CreatedOnToolsVersion = 7.3.1;
-						LastSwiftMigration = 0900;
-						TestTargetID = 9FD7DDCA1D370D1900156F22;
-					};
 					9FD7DDE91D370D1900156F22 = {
 						CreatedOnToolsVersion = 7.3.1;
 						LastSwiftMigration = 0900;
@@ -231,7 +187,6 @@
 			projectRoot = "";
 			targets = (
 				9FD7DDCA1D370D1900156F22 /* InstantPageViewController */,
-				9FD7DDDE1D370D1900156F22 /* InstantPageViewControllerTests */,
 				9FD7DDE91D370D1900156F22 /* InstantPageViewControllerUITests */,
 			);
 		};
@@ -245,13 +200,6 @@
 				9FD7DE051D370D9D00156F22 /* Main.storyboard in Resources */,
 				9FD7DDD91D370D1900156F22 /* LaunchScreen.storyboard in Resources */,
 				9FD7DDD61D370D1900156F22 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9FD7DDDD1D370D1900156F22 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,14 +225,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FD7DDDB1D370D1900156F22 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9FD7DDE41D370D1900156F22 /* InstantPageViewControllerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9FD7DDE61D370D1900156F22 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -296,11 +236,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9FD7DDE11D370D1900156F22 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9FD7DDCA1D370D1900156F22 /* InstantPageViewController */;
-			targetProxy = 9FD7DDE01D370D1900156F22 /* PBXContainerItemProxy */;
-		};
 		9FD7DDEC1D370D1900156F22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9FD7DDCA1D370D1900156F22 /* InstantPageViewController */;
@@ -378,6 +313,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -425,6 +361,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -439,7 +376,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.InstantPageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -453,36 +390,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.InstantPageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		9FD7DDF71D370D1900156F22 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = InstantPageViewControllerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = self.edu.InstantPageViewControllerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstantPageViewController.app/InstantPageViewController";
-			};
-			name = Debug;
-		};
-		9FD7DDF81D370D1900156F22 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = InstantPageViewControllerTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = self.edu.InstantPageViewControllerTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstantPageViewController.app/InstantPageViewController";
 			};
 			name = Release;
 		};
@@ -493,7 +402,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.InstantPageViewControllerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = InstantPageViewController;
 			};
@@ -506,7 +415,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.InstantPageViewControllerUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = InstantPageViewController;
 			};
@@ -529,15 +438,6 @@
 			buildConfigurations = (
 				9FD7DDF41D370D1900156F22 /* Debug */,
 				9FD7DDF51D370D1900156F22 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9FD7DDF61D370D1900156F22 /* Build configuration list for PBXNativeTarget "InstantPageViewControllerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9FD7DDF71D370D1900156F22 /* Debug */,
-				9FD7DDF81D370D1900156F22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -41,7 +40,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is an item that persists throughout pages" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKA-HE-xDV">
-                                <rect key="frame" x="66" y="309.5" width="243" height="48"/>
+                                <rect key="frame" x="50" y="309.5" width="275" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -49,15 +48,15 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="wKA-HE-xDV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="pOY-d1-kRS"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="wKA-HE-xDV" secondAttribute="trailing" constant="50" id="tHk-ox-aFu"/>
-                            <constraint firstItem="wKA-HE-xDV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xCN-FW-8rf"/>
+                            <constraint firstItem="wKA-HE-xDV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JcA-WT-OBR"/>
+                            <constraint firstAttribute="trailing" secondItem="wKA-HE-xDV" secondAttribute="trailing" constant="50" id="nwV-E8-PiH"/>
+                            <constraint firstItem="wKA-HE-xDV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="sil-NA-4S4"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="333" y="399"/>
+            <point key="canvasLocation" x="332.5" y="398.5"/>
         </scene>
         <!--Content View Controller-->
         <scene sceneID="77b-0h-xe4">
@@ -90,7 +89,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PY3-fl-2PW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1074" y="399"/>
+            <point key="canvasLocation" x="1072.8" y="398.95052473763121"/>
         </scene>
     </scenes>
 </document>
